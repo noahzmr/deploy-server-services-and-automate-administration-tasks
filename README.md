@@ -91,7 +91,7 @@
 
 # Introduction
 
-This project was developed within the context of the vocational school Itech in Hamburg, with the scenario set in an educational institution that provides students with virtual machines (VMs). The central aim of this endeavor revolves around deploying server services and streamlining administrative duties. At the forefront of our goals is the successful deployment of a learning application, underscoring the significance of this initiative. The multifaceted nature of the project entails a series of meticulous steps, each involving the establishment of diverse tools and services. Delving into the intricacies, let's explore the comprehensive framework of this undertaking:
+This project was developed in Itech vocational school in Hamburg, Germany, the scenario took place in an educational institution that provides virtual machines (VMs) to students. The main goal of this project is to provide server services and simplify administrative tasks. The focus is on the successful implementation of the educational app, which highlights the importance of this initiative. The complexity of the project required a series of careful steps, each of which included the configuration of various tools and services.
 
 ## Content Overview
 
@@ -106,8 +106,6 @@ The objective of this section is to identify, document, and manage all requireme
 Functional requirements describe the main functions and features that must be included in the final product. These requirements specify what the system should do to meet user needs.
 
 **Non-Functional Requirements**
-
-NUR KLEINER KONTOEN VERFÜGBAR
 
 These are more optional features that would be nice if we get them implemented in the short timeframe for th
 
@@ -162,7 +160,6 @@ journey
       Chat: 3
       File System: 3
       Netdat: 4
-      Wazuh: 4
 ```
 
 Now we also have the Optional functions here, but why is something like Active Directory Optional? As mentioned above, not everything is included in the Student, including no Azure AD. If someone decided to run everything in the Azure cloud, they would also run the AD there. Also, LDAP is an extremely complex system and the Linux alternatives also take some time to set up, especially if the main criterion is intended to be full automation. The time factor is also for the other options the main reason why they do not come into the functional. It is important that the basic framework once stands and the other services could be integrated there also purely.
@@ -174,8 +171,6 @@ The following things are ideally integrated with pure:
 [![Kerberos](https://img.shields.io/badge/Kerberos-5E9AFC?style=for-the-badge&logo=kerberos&logoColor=white)](https://web.mit.edu/kerberos/)
 
 [![Netdata](https://img.shields.io/badge/Netdata-00AEEF?style=for-the-badge&logo=netdata&logoColor=white)](https://www.netdata.cloud/)
-
-[![Wazuh](https://img.shields.io/badge/Wazuh-1C1E20?style=for-the-badge&logo=wazuh&logoColor=white)](https://wazuh.com/)
 
 [![Rocket.Chat](https://img.shields.io/badge/Rocket.Chat-FC5A5A?style=for-the-badge&logo=rocket-chat&logoColor=white)](https://rocket.chat/)
 [![NoerkelIT Chat](https://img.shields.io/badge/NoerkelIT%20Chat-851f5b?style=for-the-badge&logo=rocket-chat&logoColor=white)](https://github.com/noahzmr/react-chat)
