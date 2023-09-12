@@ -1,0 +1,10 @@
+# Ignore all files in .terraform, init_files, and initfiles directories
+/.terraform/
+/init_files/
+/initfiles/
+
+# Ignore files with "terraform" in the name within those directories
+*terraform*
+*.ovpn
+
+kubeconfig_noerkelit.yaml
