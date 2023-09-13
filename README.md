@@ -120,6 +120,7 @@ journey
       Monitoring: 4
       Clients: 5
       Docker: 4
+      Active Direcotry: 6
 ```
 
 ```mermaid
@@ -129,7 +130,6 @@ journey
       Simple basic setup of the environment: 7
       Scalability: 7
       Availability: 7
-      Learn Application: 6
       Automation: 7
       User experience: 5
       VPN: 7
@@ -156,7 +156,7 @@ So in short we use:
 journey
     title Requirements
     section Non-Functional
-      Active Direcotry: 3
+      Learn Application: 4
       Chat: 3
       File System: 3
       Netdat: 4
