@@ -239,7 +239,7 @@ keepalive 10 120
 push "route 10.0.1.0 255.255.255.0"
 push "route 10.0.2.0 255.255.255.0"
 push "route 10.0.3.0 255.255.255.0"
-push "dhcp-option DNS 8.8.8.8"
+push "dhcp-option DNS 10.0.3.4"
 push "dhcp-option DNS 8.8.4.4"
 tls-auth ta.key 0
 cipher AES-256-CBC
